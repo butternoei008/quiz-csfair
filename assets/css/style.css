@@ -114,7 +114,6 @@ div.container {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 .col-1,
@@ -198,6 +197,7 @@ div.container {
   padding: 1.5rem 1rem;
   border-radius: 0.25rem;
   font-size: 1.2rem;
+  width: 100%;
 }
 
 .choice-a {
