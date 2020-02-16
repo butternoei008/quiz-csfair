@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quiz</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="align-center" style="width: 100%; height: 100%;">
+      <div class="container card topic-content">
+        <div class="card-body align-middle p-relative">
+          <div class="btn-control">
+            <button class="btn-prev" disabled>
+              <img src="assets/img/arrow-left.svg" alt="">
+            </button>
+            <button class="btn-next">
+              <img src="assets/img/arrow-right.svg" alt="">
+            </button>
+          </div>
+          <form id="quiz-form">
+            <!-- Topic 1 -->
+            <div class="page-content">
+              <div class="text-center text-white">
+                <h2>เวลาแสดงความคิดเห็น</h2>
+              </div>
+              <div class="img-topic">
+                <img src="https://www.rungwat.com/wp-content/uploads/2017/11/comments.jpg" alt="">
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <label for="choice-a1">
+                    <div class="custom-radio choice-a">
+                      ความคิดเห็นตัวเองถูกต้องที่สุด
+                      <input type="radio" name="topic-1" value="4" id="choice-a1" class="choice-radio" />
+                    </div>
+                  </label>
+                </div>
+                <div class="col-6">
+                  <label for="choice-b1">
+                    <div class="custom-radio choice-b">
+                      ความคิดเห็นตัวเองถูกต้องที่สุด
+                      <input type="radio" name="topic-1" value="3" id="choice-b1" class="choice-radio" />
+                    </div>
+                  </label>
+                </div>
+                <div class="col-6">
+                  <label for="choice-c1">
+                    <div class="custom-radio choice-c">
+                      ความคิดเห็นตัวเองถูกต้องที่สุด
+                      <input type="radio" name="topic-1" value="1" id="choice-c1" class="choice-radio" />
+                    </div>
+                  </label>
+                </div>
+                <div class="col-6">
+                  <label for="choice-d1">
+                    <div class="custom-radio choice-d">
+                      ความคิดเห็นตัวเองถูกต้องที่สุด
+                      <input type="radio" name="topic-1" value="2" id="choice-d1" class="choice-radio" />
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Topic 2 -->
+            <div class="page-content">
+              <div class="text-center text-white">
+                <h2>ถ้าคุณไปออกเดทกับแฟนแล้วแฟนคุณเค้าบอกว่าสั่งอะไรก็ได้เลย คุณจะสั่งอะไร</h2>
+              </div>
+              <div class="img-topic">
+                <img src="https://img.kapook.com/u/2017/wanchalerm/Reply_Comment_IG_1.jpg" alt="">
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <label for="choice-a2">
+                    <div class="custom-radio choice-a">
+                      อาหารทั่วๆไป
+                      <input type="radio" name="topic-2" value="2" id="choice-a2" class="choice-radio" />
+                    </div>
+                  </label>
+                </div>
+                <div class="col-6">
+                  <label for="choice-b2">
+                    <div class="custom-radio choice-b">
+                      ของโปรดของเขา
+                      <input type="radio" name="topic-2" value="1" id="choice-b2" class="choice-radio" />
+                    </div>
+                  </label>
+                </div>
+                <div class="col-6">
+                  <label for="choice-c2">
+                    <div class="custom-radio choice-c">
+                      ขอแพงๆไว้ก่อน
+                      <input type="radio" name="topic-2" value="4" id="choice-c2" class="choice-radio" />
+                    </div>
+                  </label>
+                </div>
+                <div class="col-6">
+                  <label for="choice-d2">
+                    <div class="custom-radio choice-d">
+                      ไม่สั่งดีกว่า แค่น้ำก็พอ อิ่มแล้ว
+                      <input type="radio" name="topic-2" value="3" id="choice-d2" class="choice-radio" />
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button type="submit">เสร็จสิ้น</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+
+  <script src="assets/js/serialize-0.2.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

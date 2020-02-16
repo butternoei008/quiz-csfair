@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .wrap-control {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+
+      .btn-prev,
+      .btn-next {
+        position: absolute;
+      }
+
+      .btn-prev > img,
+      .btn-next > img {
+        width: 50px;
+      }
+
+      .btn-prev:hover,
+      .btn-next:hover {
+        cursor: pointer;
+        color: #1e1e1e;
+      }
+
+      .btn-prev {
+        left: 0;
+      }
+
+      .btn-next {
+        right: 0;
+      }
+
+      .btn-control {
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap-control">
+      <div class="item-middle">
+        <span class="btn-prev">
+          <img src="assets/img/arrow-left.svg" alt="arrow-left" />
+        </span>
+        <span class="btn-next">
+          <img src="assets/img/arrow-right.svg" alt="arrow-right" />
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
